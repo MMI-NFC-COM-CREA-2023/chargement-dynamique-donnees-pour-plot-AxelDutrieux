@@ -51,6 +51,10 @@
         <div id="graphique2" class="styled-div">
         </div>
     </section>
-
+    <script type="module">
+const graph1reponse = await fetch("./data.json");
+const data = await graph1reponse.json();
+console.log(data);
+    </script>
 </body>
 </html>
